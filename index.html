@@ -6,8 +6,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Food Dash</title>
   </head>
-  <body>
-    <h1 class="text-4xl text-red-400">Hello World</h1>
+  <body class="font-serif">
+    <header class="bg-gradient-to-br from-orange-50 via-orange-50 to-orange-100 py-2 text-gray-500">
+      <div class="container mx-auto px-10 flex items-center justify-between">
+          <!-- logo -->
+          <h1 class="text-lg md:text-2xl font-extrabold tracking-tighter border-b-2 border-dashed border-pink-500">
+              <span class="text-pink-500">Food</span><span class="text-gray-900"> Dash</span>
+          </h1>
+          <!-- navigation -->
+          <div class="flex space-x-8 md:text-lg">
+              <a href="/food-dash.html"
+                  class="hidden md:inline-block hover:text-gray-700 hover:font-bold transition duration-300">Home</a>
+              <a href="#menu" class="hover:text-gray-700 hover:font-bold transition duration-300">Menu</a>
+              <a href="#offers"
+                  class="hidden md:inline-block hover:text-gray-700 hover:font-bold transition duration-300">Offers</a>
+              <a href="#contact-us"
+                  class="hidden md:inline-block hover:text-gray-700 hover:font-bold transition duration-300">Contact Us</a>
+              <a href="#about-us"
+                  class="hidden md:inline-block hover:text-gray-700 hover:font-bold transition duration-300">About
+                  Us</a>
+          </div>
+      </div>
+  </header>
+
+
     <script type="module" src="/main.js"></script>
   </body>
 </html>
